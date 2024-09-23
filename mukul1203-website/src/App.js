@@ -6,7 +6,7 @@ const App = () => {
   const [repos, setRepos] = useState([]);
 
   useEffect(() => {
-    fetch('https://api.github.com/users/<your-username>/repos')
+    fetch('https://api.github.com/users/mukul1203/repos')
       .then(response => response.json())
       .then(data => setRepos(data))
       .catch(err => console.error(err));
