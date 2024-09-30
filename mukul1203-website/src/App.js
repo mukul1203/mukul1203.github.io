@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Bio from './components/Bio';
 import RepoCard from './components/RepoCard';
+import "./App.css"
 
 const App = () => {
   const [repos, setRepos] = useState([]);

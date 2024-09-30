@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import "./RepoCard.css"
 
 const RepoCard = ({ repo }) => (
   <div className="repo-card">

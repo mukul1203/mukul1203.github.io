@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Bio.css"
 
 const Bio = () => (
   <div className="bio">
